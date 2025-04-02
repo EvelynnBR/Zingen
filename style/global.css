@@ -51,11 +51,3 @@ img{
 h1, h2, h3{
     color: var(--text-color-primary);
 }
-
-.btn-sm {
-    text-decoration: none;
-    padding: .75rem 1rem;
-    background-color: var(--text-color-primary);
-    border-radius: .5rem;
-    color: var(--bg-color);
-}
