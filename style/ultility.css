@@ -33,6 +33,10 @@ h1{
     font: var(--h1);
     letter-spacing: -0.04em;
 }
+h2{
+    font: var(--h2);
+    letter-spacing: -0.04em;
+}
 p{
     font: var(--p);
 }
