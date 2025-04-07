@@ -33,6 +33,9 @@ h1{
     font: var(--h1);
     letter-spacing: -0.04em;
 }
+p{
+    font: var(--p);
+}
 
 a[rule="list"]{
     list-style: none;
