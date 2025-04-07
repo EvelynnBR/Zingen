@@ -1,0 +1,37 @@
+#smartfones{
+    background: url(../assets/illustration-mobile.svg)top/cover;
+}
+
+#about{
+    background-color: var(--surface-color);
+
+    & .texto{
+        padding-bottom: 3rem;
+    }
+
+    & span{
+        font: var(--span);
+        color: var(--brand-color-primary);
+    }
+    & h2, p{
+        margin-top: .5rem;
+    }
+}
+
+@media (width >= 80em){
+    #smartfones{
+        display: none;
+    }
+
+    #about{
+        & .desktop{
+            display: flex;
+            align-items: center;
+        }
+
+        & img{
+            width: 34rem;
+        }
+
+    }
+}
