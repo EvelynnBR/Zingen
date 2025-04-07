@@ -31,9 +31,10 @@
 
 h1{
     font: var(--h1);
+    letter-spacing: -0.04em;
 }
 
-ul[rule="list"]{
+a[rule="list"]{
     list-style: none;
 }
 .center-y{
@@ -43,6 +44,13 @@ ul[rule="list"]{
     padding-block: 1.5rem;
 }
 
-.smartfone{
+.desktop-only{
     display: none;
+}
+
+.link-deco{
+    text-decoration: none;
+}
+.py-xl{
+    padding-block: var(--py-xl);
 }

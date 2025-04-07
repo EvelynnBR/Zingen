@@ -5,7 +5,6 @@
 
     text-decoration: none;
     border: none;
-    padding: .75rem 1rem;
     border-radius: .5rem;
     font: var(--span);
 
@@ -61,4 +60,15 @@
 .btn-lg{
     padding: 1rem 2rem;
     font: 500 1.125rem/1 var(--font-family);
+}
+
+@media (width >= 80em){
+    .btn-sm{
+        padding: .75rem 1.5rem;
+    }
+    
+    .btn-md{
+        padding: 1rem 2rem;
+    }
+    
 }

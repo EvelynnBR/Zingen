@@ -12,26 +12,36 @@
         <title>Zingen - Karaokê</title>
     </head>
     <body>
-        <main class="container">
-            <nav class="flex padding-y gap-1.5">
-                <img src="assets/icons/logo.svg" alt="logo">
+        <nav class="container flex padding-y gap-1.5">
+            <img src="assets/icons/logo.svg" alt="logo">
 
-                <ul rule="list" class="flex center-y gap-1.5 smartfone">
-                    <li id="#">Conheça o app</li>
-                    <li id="#">Funcionalidades</li>
-                    <li id="#">Planos e preços</li>
-                </ul>
-                <button class="grid center-y" href="download">Baixar agora</button>
-            </nav>
+            <a href="" class="desktop-only center-y link-nav">Conheça o app</a>
+            <a href="" class="desktop-only center-y link-nav">Funcionalidades</a>
+            <a href="" class="desktop-only center-y link-nav">Planos e preços</a>
+            
+            <a class="grid center-y btn btn-sm" href="#download">Baixar agora</a>
+        </nav>
 
-            <section class="music-bars">
+        <section id="hero">
+            <div class="container py-xl">
+                <img src="assets/Music bars.svg" alt="">
+                <h1>Quem canta seus males espanta</h1>
+                <p>Cantar nunca foi tão fácil</p>
                 
-                <header>
-                    <img src="assets/Music bars.svg" alt="">
-                    <h1>Quem canta seus males espanta</h1>
-                    <p>Cantar nunca foi tão fácil</p>
-                </header>
-            </section>
-        </main>
+                <div class="buttons flex center-y gap-1">
+                    <a href="plans" aria-label="Ver planos" class="btn btn-md"></a>
+                    <a href="#dowload" class="btn btn-md">Baixar agora</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="smartfones">
+            <img src="assets/smartfones.svg" alt="">
+        </section>
+
+        <section id="about">
+            <img src="assets/icons/" alt="">
+        </section>
+
     </body>
 </html>

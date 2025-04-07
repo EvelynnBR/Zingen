@@ -25,6 +25,7 @@
     --brand-color-secondary: #FC4A1A;
 
     --px-lg: 1.5rem;
+    --py-xl: 4rem;
 
 }
 
@@ -35,6 +36,7 @@
         --h3: 800 2rem/1.2 var(--font-family);
 
         --px-lg: 1.5rem;
+        --py-xl: 5rem;
     }
 }
 
