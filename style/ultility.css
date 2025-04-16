@@ -45,7 +45,7 @@ p{
     font: var(--p);
 }
 
-a[rule="list"]{
+ul[rule="list"]{
     list-style: none;
 }
 .center-y{
@@ -64,4 +64,8 @@ a[rule="list"]{
 }
 .py-xl{
     padding-block: var(--py-xl);
+}
+
+span{
+    color: var(--brand-color-primary);
 }
