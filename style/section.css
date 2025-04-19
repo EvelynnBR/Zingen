@@ -365,6 +365,10 @@ footer{
         gap: 1.5rem;
         margin-bottom: 4rem;
 
+        & span{
+            margin-bottom: 1.5rem;
+        }
+
         & li a{
             text-decoration: none;
             color: var(--text-color-secondary);
