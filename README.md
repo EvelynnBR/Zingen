@@ -9,7 +9,7 @@
 <br>
 
 <p>
-  <img alt="Zingen" src=".github/zingen.webp" width="100%">
+  <img alt="Zingen" src=".github/zingen.jpg" width="100%">
 </p>
 
 ## 💻 Projeto
