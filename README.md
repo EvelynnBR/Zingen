@@ -14,7 +14,7 @@
 ## 💻 Projeto
 
 Nesse projeto a ideia foi desenvolver uma lading page de aplicativo, mostrando as funcionalidades e planos.
-- <a href="https://evelynnbr.github.io/Zingen/">Clique para ver o Zingen</a>
+- Veja o projeto: <a href="https://evelynnbr.github.io/Zingen/"> Zingen</a>
 
 ## 🚀 Tecnologias
 
